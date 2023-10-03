@@ -1,0 +1,188 @@
+.mainContainer {
+    width: 90%;
+    margin: auto;
+    background: url("../../images/circle3.png") no-repeat;
+    background-position: top left;
+    background-size: 300px;
+    padding: 10px 0 0 0;
+    margin-top: 8%;
+}
+
+.formContainer {
+    width: 80%;
+    box-shadow: 0 0 20px -10px;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 10%;
+    background-color: white;
+}
+
+.leftContainer {
+    width: 50%;
+
+}
+
+.leftContainer form input:nth-child(2),
+.leftContainer form input:nth-child(3),
+.leftContainer form textarea {
+    margin-top: 1%;
+}
+
+.leftContainer form input {
+    background: #FFFFFF;
+    margin-top: 20%;
+    border: 1px solid #9D9D9D;
+    box-shadow: 0px 0px 9px 2px rgba(0, 0, 0, 0.25);
+}
+
+.leftContainer form textarea {
+    background: #FFFFFF;
+    border: 1px solid #9D9D9D;
+    box-shadow: 0px 0px 9px 2px rgba(0, 0, 0, 0.25);
+}
+
+.leftContainer form button {
+    width: 100%;
+    margin: auto;
+    padding: 3%;
+}
+
+.formContainer {
+    display: flex;
+}
+
+.rightContainer {
+    margin-top: 8%;
+}
+
+.rightContainer .mainHeading {
+    width: 50%;
+    line-height: 1;
+}
+
+.mainHeading span {
+    color: #e92747;
+}
+
+.officeContact {
+    margin-top: 3%;
+    width: 90%;
+}
+
+.contactDetails {
+    display: flex;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.contactDetails p {
+    margin-left: 2%;
+    color: #e92747;
+}
+
+.mailIcon {
+    font-size: x-large;
+}
+
+.leftContainer form button {
+    margin-bottom: 10%;
+}
+
+/* Responsiveness */
+@media (min-width: 1008px) and (max-width: 1300px) {
+    .rightContainer {
+        width: 50%;
+    }
+}
+
+@media (min-width: 641px) and (max-width: 1007px) {
+    .rightContainer {
+        width: 50%;
+    }
+
+    .mainHeading {
+        font-size: small;
+    }
+
+    .officeContact {
+        font-size: small;
+    }
+
+    .contactDetails {
+        font-size: small;
+    }
+
+    .mailIcon {
+        font-size: large;
+    }
+
+    .formContainer {
+        width: 87%;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 640px) {
+    .mainContainer {
+        width: 80%;
+        margin: auto;
+        margin-top: 10%;
+    }
+
+    .formContainer {
+        flex-direction: column;
+    }
+
+    .leftContainer {
+        width: 100%;
+    }
+
+    .rightContainer {
+        width: 80%;
+        margin: auto;
+    }
+
+    .rightContainer .mainHeading {
+        width: 100%;
+    }
+
+    .mainHeading h1 {
+        font-size: large;
+        text-align: center;
+    }
+
+    .officeContact {
+        text-align: center;
+    }
+
+    .officeContact h3 {
+        margin-top: 5%;
+        font-size: smaller;
+    }
+
+    .officeContact p {
+        font-size: small;
+    }
+
+    .contactDetails {
+        font-size: small;
+        text-align: center;
+        width: 80%;
+        margin-top: 10%;
+        margin: auto;
+        flex-direction: column;
+    }
+
+    .contactDetails p {
+        font-size: small;
+        width: 80%;
+        display: flex;
+        margin-left: 0%;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .contactDetails .phoneIcon {
+        margin-top: 5%;
+        font-size: small !important;
+    }
+}

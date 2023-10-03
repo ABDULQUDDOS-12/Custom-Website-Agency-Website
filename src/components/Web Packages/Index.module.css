@@ -1,0 +1,117 @@
+.mainContainer{
+    margin-top: 8%;
+}
+.mainHeading{
+    font-size: x-large;
+    text-align: center;
+}
+.cardComponent{
+    display: none;
+}
+.mainHeading h1{
+    color: #141232;
+}
+.mainHeading span{
+    color: #E92747;
+}
+.mainTextContainer{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+.mainTextContainer p{
+    color: #141232;
+    line-height: 2;
+}
+.buttonsContainer{
+   display: flex;
+   flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+}
+.buttonsContainer button{
+    width: 20%;
+    padding: 2%;
+    font-size: large;
+    border-radius: 25px;
+    margin: 2%;
+    background:white;
+    border: 1px solid #E92747;
+    color: #E92747;
+    box-shadow: 0px 0px 18px -10px #000;
+    cursor: pointer;
+    transition: background-color 0.3s  ease-in;
+}
+.buttonsContainer button:hover{
+    background-color: #e92747;
+    color: white;
+}
+.cardComponent{
+    display: none;
+}
+/* Responsiveness */
+@media (min-width: 1008px) and (max-width: 1300px){
+    .dropdownMenu{
+      display: none;   
+    }
+}
+@media (min-width: 641px) and (max-width: 1007px){
+    .mainHeading{
+        font-size: large;
+    }
+    .mainTextContainer p{
+        font-size: small;
+    }
+    .buttonsContainer{
+        width: 70%;
+    }
+    .buttonsContainer button{
+        font-size: small;
+    }
+    .dropdownMenu{
+      display: none;   
+    }
+}
+@media (min-width: 360px) and (max-width: 640px){
+    .mainContainer{
+        width: 80%;
+        margin: auto;
+        margin-top: 15%;
+    }
+    .mainHeading{
+        font-size: large;
+    }
+    .mainTextContainer{
+        width: 80%;
+        margin: auto;
+    }
+    .mainTextContainer p{
+        font-size: small;
+    }
+    .buttonsContainer{
+        margin-top: 10%;
+    }
+    .buttonsContainer button{
+        margin: auto;
+        margin-top: 4%;
+        width: 80%;
+        padding: 5%;
+    }
+    .buttonsContainer{
+        display: none;
+    }
+    .dropdownMenu{
+        width:80%;
+        margin: auto; 
+    }
+    .dropdownMenu select{
+        justify-content: center;
+        width: 100%;
+        margin-top: 10%;
+        padding: 5%;
+        font-size: large;
+    }
+    .cardComponent{
+        display: block;
+    }
+}

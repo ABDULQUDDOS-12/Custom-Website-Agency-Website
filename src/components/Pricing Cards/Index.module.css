@@ -1,0 +1,141 @@
+.mainContainer{
+    margin-top: 5%;
+}
+.hide-on-desktop {
+    display: none;
+  }
+.cardsContainer{
+    width: 90%;
+    margin-top: 3%;
+}
+.cardsContainer{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+.firstCard{
+    width: 31%;
+    background-color:transparent;
+    height: 700px;
+    margin: auto;
+    padding-top: 2%;
+    border-radius: 20px;
+    margin-bottom: 2%;
+    box-shadow: 0 0 19px -10px;
+}
+.firstImageContainer{
+    width: 90%;
+    margin: auto;
+
+}
+.firstImage{
+    width: 100%;
+}
+.textHeadingContainer{
+    width: 90%;
+    margin: auto;
+    color: #141232;
+}
+.firstCard hr{
+    width: 90%;
+    border-color: #141232;
+}
+.checkPoints{
+    width: 90%;
+    margin: auto;
+    line-height: 2;
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 220px;
+    scroll-behavior:inherit;
+}
+.checkPoints::-webkit-scrollbar-thumb {
+    background-color: #141232; /* Change this to your desired color */
+    border-radius: 25px;
+}
+.checkPoints::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Change this to your desired color */
+    border-radius: 25px;
+}
+.checkPoints::-webkit-scrollbar {
+    width: 8px; /* You can adjust the width */
+    border-radius: 25px;
+}
+.buttonContainer{
+    width: 90%;
+    margin: auto;
+}
+.buttonContainer button{
+    margin-top: 10%;
+    padding: 5%;
+    border-radius:30px;
+    border: 2px solid #141232;
+    background-color: #141232;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+.buttonContainer button:hover{
+    color: #141232;
+    background-color: white;
+}
+.buttonContainer button:nth-child(2){
+    margin-top: 10%;
+    padding: 5%;
+    border-radius: 30px;
+    border: 2px solid #E92747;
+    background-color: transparent;;
+    color: #E92747;
+    margin-left: 3%;
+    transition: all 0.3s ease-in;
+}
+.buttonContainer button:nth-child(2):hover{
+    color: white;
+    background-color: #141232;
+    border: 2px solid #141232;
+}
+.lastlineContainer{
+    width: 90%;
+    margin: auto;
+    margin-top: 3%;
+}
+/* Responsiveness */
+@media (min-width: 1008px) and (max-width: 1300px){
+   .buttonContainer button{
+    font-size: inherit;
+   }
+}
+@media (min-width: 641px) and (max-width: 1007px){
+   .firstCard{
+    width: 46%;
+    height: auto;
+   }
+   .buttonContainer button{
+    font-size: small;
+   }
+}
+@media (min-width: 360px) and (max-width: 640px){
+    .firstCard{
+        width: 80%;
+        margin-bottom: 5%;
+    }
+    .checkPoints span{
+        font-size: small;
+    }
+    .buttonContainer{
+        display: flex;
+    }
+    .buttonContainer button{
+        font-size: small;
+    }
+    .lastlineContainer p{
+        font-size: small;
+        margin-bottom: 5%;
+    }
+    .firstCard{
+        height: auto;
+    }
+}

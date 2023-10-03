@@ -1,0 +1,187 @@
+.mainContainer {
+    margin-top: -10%;
+}
+
+.mainHeading {
+    text-align: center;
+}
+
+.mainHeading h1 {
+    color: #141232;
+    font-size: 45px;
+}
+
+.mainHeading span {
+    color: #E92747;
+}
+
+.mainHeading p {
+    color: #141232;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 1rem auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.firstImage,
+.secondImage {
+    width: 30%;
+    margin: 1%;
+    height: 27rem;
+    overflow: hidden;
+    /* Hide overflow content */
+}
+
+
+.hoverZoomImage,
+.secondhoverZoomImage {
+    width: 100%;
+    height: 1000px;
+    /* Ensure the image takes the full width of its container */
+    transition: transform 2s;
+}
+
+.thirdhoverZoomImage,
+.forthhoverZoomImage,
+.fifthhoverZoomImage {
+    width: 100%;
+    height: 2000px;
+    /* Ensure the image takes the full width of its container */
+    transition: transform 2s;
+}
+
+.sixthhoverZoomImage {
+    width: 100%;
+    height: 1500px;
+    /* Ensure the image takes the full width of its container */
+    transition: transform 2s;
+}
+
+.hoverZoomImage:hover,
+.secondhoverZoomImage:hover,
+.thirdhoverZoomImage:hover,
+.forthhoverZoomImage:hover,
+.fifthhoverZoomImage:hover,
+.sixthhoverZoomImage:hover {
+    transform: translateY(-55%);
+    cursor: pointer;
+}
+
+.portfolioImages {
+    display: flex;
+}
+
+/* responsiveness */
+@media (min-width: 1008px) and (max-width: 1300px) {}
+
+@media (min-width: 641px) and (max-width: 1007px) {
+    .mainHeading h1 {
+        font-size: x-large;
+    }
+
+    .mainHeading p {
+        font-size: small;
+    }
+
+    .firstImage {
+        width: 30%;
+        margin: 1%;
+        height: 15rem;
+        overflow: hidden;
+    }
+
+    .hoverZoomImage {
+        width: 100%;
+        height: 700px;
+        transition: transform 2s;
+    }
+
+    .secondImage {
+        width: 30%;
+        margin: 1%;
+        height: 15rem;
+        overflow: hidden;
+    }
+
+    .secondhoverZoomImage {
+        width: 100%;
+        height: 700px;
+        transition: transform 2s;
+    }
+
+    .thirdhoverZoomImage {
+        width: 100%;
+        height: 1200px;
+        transition: transform 2s;
+    }
+
+    .forthhoverZoomImage {
+        width: 100%;
+        height: 1300px;
+        transition: transform 2s;
+    }
+
+    .fifthhoverZoomImage {
+        width: 100%;
+        height: 1500px;
+        transition: transform 2s;
+    }
+    .sixthhoverZoomImage{
+        width: 100%;
+        height: 1000px;
+        transition: transform 2s;
+    }
+
+}
+    @media (min-width: 360px) and (max-width: 640px){
+        .mainHeading{
+            width: 80%;
+            margin: auto;
+        }
+        .mainHeading h1{
+        font-size: xx-large;
+     }
+     .mainContainer{
+        margin-top: 15%;
+     }
+     .mainHeading p{
+        margin-top: 5%;
+        font-size: small;
+     }
+     .wrapper{
+        width: 80%;
+     }
+     .firstImage{
+        width: 48%;
+        margin: 1%;
+        height: 12rem;
+        overflow: hidden;
+     }
+     .hoverZoomImage{
+        height: 500px;
+     }
+     .secondImage{
+        width: 48%;
+        margin: 1%;
+        height: 12rem;
+        overflow: hidden;
+     }
+     .secondhoverZoomImage{
+        height: 650px;
+     }
+     .thirdhoverZoomImage{
+        height: 1000px;
+     }
+     .forthhoverZoomImage{
+        height: 1000px;
+     }
+     .fifthhoverZoomImage{
+        height: 1000px;
+     }
+     .sixthhoverZoomImage{
+        height: 600px;
+     }
+    }

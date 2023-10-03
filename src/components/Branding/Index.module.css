@@ -1,0 +1,125 @@
+.mainContainer{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+    justify-content: space-between;
+}
+.leftHandContainer{
+    width: 45%;
+}
+.imageContainer{
+    width: 100%;
+}
+.image{
+    width: 100%;
+}
+.mainHeading{
+    font-size: x-large;
+}
+.rightHandContainer{
+   width: 50%;
+   
+}
+.mainHeading h1{
+    color: #141232;
+}
+.mainHeading span{
+    color: #E92747;
+}
+.textContainer p{
+    line-height: 2;
+}
+.firstIconContainer{
+    width: 35%;
+    background: rgb(240, 243, 243);
+    display: flex;
+    border-radius: 5px;
+    margin-right: 10%;
+    box-shadow: 0 0 20px -10px;
+    margin-bottom: 5%;
+}
+.firstImageContainer{
+    width: 40%;
+}
+.iconsContainer{
+    margin-top: 5%;
+    flex-wrap: wrap;
+    display: flex;
+}
+.firstImage{
+    margin-top: -20%;
+}
+.iconText{
+    width: 50%;
+    margin:auto;
+}
+/* Responsiveness */
+@media (min-width: 1008px) and (max-width: 1300px){
+  .firstIconContainer{
+    width: 40%;
+  }
+}
+@media (min-width: 641px) and (max-width: 1007px){
+  .mainHeading{
+    font-size: large;
+  }
+  .leftHandContainer{
+    width: 45%;
+  }
+  .rightHandContainer{
+    width: 53%;
+  }
+  .firstImageContainer img{
+    width: 90%;
+  }
+  .textContainer p{
+    font-size: small;
+  }
+  .iconText p{
+    font-size: small;
+  }
+  .firstIconContainer{
+    width: 40%;
+  }
+  .iconText{
+    width: 58%;
+  }
+}
+@media (min-width: 360px) and (max-width: 640px){
+  .mainContainer{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    justify-content: space-between;
+  }
+  .leftHandContainer{
+    width: 80%;
+    margin: auto;
+    margin-top: 20%;
+  }
+  .rightHandContainer{
+    width: 80%;
+    margin: auto;
+    margin-top: 10%;
+  }
+  .mainHeading h1{
+    font-size: x-large;
+  }
+  .textContainer p{
+    font-size: small;
+  }
+  .firstIconContainer{
+    width: 80%;
+    margin: auto;
+    margin-top: 10%;
+  }
+  .iconText p{
+    font-size: small;
+  }
+  .firstImageContainer img{
+    width: 70%;
+  }
+}

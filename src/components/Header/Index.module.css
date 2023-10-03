@@ -1,0 +1,190 @@
+.wrapper {
+    background-color: black;
+}
+
+.mainContainer {
+    background-color: black;
+    display: flex;
+    height: auto;
+    padding: 1%;
+    width: 98%;
+    align-items: center;
+}
+
+.hamburgerMenu {
+    display: none;
+}
+
+.logoContainer {
+    width: 25%;
+    text-align: center;
+}
+
+.navbarMainContainer {
+    color: white;
+    width: 50%;
+    display: flex;
+}
+
+.image {
+    width: 80%;
+}
+
+.navbarMainContainer ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbarMainContainer ul li {
+    font-weight: 500;
+    font-size: large;
+    cursor: pointer;
+    transition: color 0.3s ease-in;
+}
+
+.navbarMainContainer ul li:hover {
+    color: #e92747;
+}
+
+.getAQuote {
+    width: 15%;
+    margin: auto;
+    justify-content: center;
+}
+
+.getAQuote button {
+    padding: 8%;
+    width: 90%;
+    color: white;
+    border: 1px solid white;
+    background: linear-gradient(to right, black 0%, black 0%);
+    background-size: 200% 100%;
+    background-repeat: no-repeat;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-position 0.5s ease-in-out, background-color 1s ease-out;
+}
+
+.getAQuote button:hover {
+    background-position: -100% 0%;
+    background-color: #e92747;
+}
+
+/* Responsiveness  */
+@media (min-width: 1008px) and (max-width: 1300px) {
+    .navbarMainContainer ul li {
+        font-size: small;
+    }
+}
+
+@media (min-width: 641px) and (max-width: 1007px) {
+    .navbarMainContainer ul li {
+        font-size: small;
+    }
+
+    .logoContainer {
+        width: 20%;
+        padding: 1%;
+    }
+
+    .navbarMainContainer ul {
+        width: 85%;
+    }
+
+    .navbarMainContainer {
+        width: 85%;
+    }
+
+    .image {
+        width: 85%;
+    }
+
+    .mainContainer {
+        width: 100%;
+        padding: 0%;
+    }
+
+    .getAQuote button {
+        padding: 3% !important;
+        width: 57%;
+        font-size: small;
+    }
+
+}
+
+@media (min-width: 360px) and (max-width: 640px) {
+    .logoContainer {
+        width: 100%;
+    }
+
+    .logoContainer img {
+        width: 40%;
+        float: left;
+        margin-left: 15%;
+        padding-top: 3%;
+    }
+
+    .navbarMainContainer {
+        display: none;
+    }
+
+    .getAQuote {
+        display: none;
+    }
+
+    .mobilemenuLink {
+        display: flex;
+        width: 100%;
+        margin: auto;
+        top: 100%;
+        left: 0%;
+        right: 0%;
+        position: absolute;
+        z-index: 99;
+        background-color: white;
+        height: 20rem;
+        align-items: center;
+        transition: all 5s linear ease-in;
+        transform-origin: top;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+            rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    }
+
+    .mobilemenuLink ul {
+        height: 20rem;
+        width: 30%;
+        margin: auto;
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        background-color: white;
+        list-style: none;
+        font-weight: bold;
+        font-size: large;
+        padding-left: inherit;
+    }
+
+    .mobilemenuLink ul li {
+        text-align: center;
+    }
+
+    .mobilemenuLink ul li:first-child {
+        transition-delay: 0.5s;
+    }
+
+    .hamburgerMenu {
+        margin-top: 5%;
+        display: block;
+        width: 20%;
+
+        font-size: 2.5rem;
+    }
+
+    .hambergerMenuIcon {
+        color: white;
+    }
+}

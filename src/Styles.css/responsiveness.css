@@ -1,0 +1,826 @@
+@media only screen and (max-width: 1400px) {
+
+    .brand-img {
+        margin-left: 0;
+    }
+    button#submit {
+        padding: 12px 50px;
+      
+    }
+    .package-header h3 {
+       font-size: 23px;
+       
+    }
+    .package-header {
+      padding: 15px 0px 50px 0;
+        background-size: 100% 100%;
+    }
+    
+    .package-header sup {
+      top: -20px;
+        left: -7px;
+    }
+    .package-footer a {
+        display: inline-block;
+        padding: 12px 18px;
+    }
+    section.chatbox a {
+        padding: 9px 10px;
+        font-weight: 400;
+    }
+    .dots:before {
+        right: 0;
+    }
+    section.con-arae:before {
+      left: 50px;
+    }
+    footer.footer-main .footer-item {
+        padding-right: 20px;
+    }
+    }
+    
+    @media only screen and (max-width: 1200px) {
+    section.main-banner {
+        padding-top: 150px;
+        padding-bottom: 50px;
+        background-position: -80px 30px;
+    }
+    .banner-item h3 {
+        font-size: 36px;
+        line-height: 150%;
+    }
+    .banner-item p {
+        font-size: 20px;
+        line-height: 170%;
+    }
+    ul.icon-banner li {
+        font-size: 17px;
+        line-height: 180%;
+    }
+    .button-area a {
+        padding: 10px 35px;
+    }
+    .heading-form h6 {
+        font-size: 20px;
+        line-height: 160%;
+    }
+    .heading-form h3 {
+        font-size: 24px;
+        line-height: 150%;
+    }
+    .main-banner-contact {
+        padding: 30px 28px;
+        border-radius: 7px;
+    }
+    .main-menu ul li:last-child a {
+        padding: 12px 15px;
+    }
+    .main-menu ul {
+        gap: 15px;
+    }
+    section.business-m {
+        padding: 70px 0 30px;
+    }
+    .content-style-2 h3 {
+        font-size: 34px;
+        line-height: 150%;
+    }
+    .content-style-2 p {
+        font-size: 15px;
+        line-height: 165%;
+    }
+    
+    section.chatbox {
+        padding: 20px;
+        BACKGROUND: #141232;
+    }
+    
+    .chat-main .chat-content span.off50 {
+        font-size: 26px;
+        
+    }
+    .firstbox p {
+        font-size: 14px;
+        line-height: 180%;
+    }
+    section.chatbox a {
+        padding: 9px 10px;
+        font-weight: 400;
+        font-size: 15px;
+        margin-right: 10px;
+    }
+    .content-style-1 p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 160%;
+    }
+    .content-style-1 h3 {
+        font-size: 32px;
+        line-height: 160%;
+    }
+    ul#pills-tab li button {
+        padding: 10px 30px;
+      
+    }
+    section.project .pro-phone ul {
+        border-right: 3px solid;
+        padding-right: 40px;
+    }
+    .pro-phone:before{
+      display: none;
+    }
+    .project-box {
+     margin-top: 20px !important;
+       
+    }
+    .branding-icon ul li {
+        width: 57%;
+        margin-right: 15px;
+    }
+    section.con-arae {
+        margin: 50px 0;
+    }
+    section.testimonials .content-style-2 h3 {
+        font-size: 32px;
+    }
+    section.main-packages ul#pills-tab li {
+        width: 24%;
+    }
+    section.main-packages ul#pills-tab li button {
+    padding: 12px 25px;
+    }
+    .content-style-3 h2 {
+        line-height: 50px;
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+    
+    .content-style-3.px-3 {
+        margin-bottom: 30px;
+    }
+    
+    .content-style-4 h4 {
+    font-size: 36px;
+        line-height: 46px;
+       
+    }
+    
+    
+    }
+    
+    @media only screen and (max-width: 1024px) {
+    .service-item .service-content h4 {
+        font-size: 18px;
+    }
+    section.our-services .service-item {
+      padding: 40px 20px;
+        min-height: 367px;
+    }   
+        
+    }
+    
+    @media only screen and (max-width: 900px) {
+    footer.footer-main .compliant-list {
+        margin-bottom: 40px;
+    }
+    .header-top {
+        display: block !important;
+    }
+    iframe#launcher {
+        margin-bottom: 100px !important;
+    }
+    section.main-packages ul#pills-tab li {
+        width: auto;
+    }
+    section.main-packages ul#pills-tab li button {
+        padding: 9px 26px;
+        font-size: 14px;
+    }
+    header.main-header {
+        padding: 50px 0 9px;
+    }
+    .main-menu {
+        display: none;
+    }
+    .banner-item h3 {
+        font-size: 30px;
+        line-height: 150%;
+    }
+    .banner-item p {
+        font-size: 17px;
+        line-height: 170%;
+    }
+    ul.icon-banner {
+        margin: 20px 0;
+    }
+    .button-area a {
+        padding: 10px 20px;
+        margin-right: 3px;
+    }
+    section.main-packages {
+        padding: 80px 0;
+    }
+    .firstbox h6 {
+        font-size: 19px;
+    }
+    .firstbox p {
+        padding: 0;
+        margin-bottom: 15px;
+    }
+    section.main-packages {
+        padding: 50px 0;
+    }
+    ul#pills-tab li button {
+        padding: 10px 15px;
+    }
+    .company-content1 {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .company-content3:last-child {
+        display: none;
+    }
+    .company-content4 {
+        margin-top: 20px;
+    }
+    .company-content-image.image-style-1 {
+        margin-top: 27px;
+    }
+    .company-content-image.image-style-1 {
+        margin-top: 27px;
+    }
+    .content-style-1 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    section.portfolio {
+        margin-bottom: 30px;
+    }
+    section.project {
+        padding: 50px 0;
+    }
+    .branding-icon ul {
+        gap: 30px;
+    }
+    .testi-img img {
+        width: 100%;
+        transform: scale(1.4);
+        margin-top: 60px;
+    }
+    section.brand {
+        padding: 70px 0 0px;
+        overflow: hidden;
+    }
+    section.brand .content-style-2 {
+        margin-top: 30px;
+    }
+    section.testimonials .content-style-2 {
+        text-align: center;
+    }
+    .content-style-2 h3 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 150%;
+        color: #141232;
+        margin-bottom: 12px;
+    }
+    section.con-arae:before {
+        content: '';
+        width: 200px;
+        height: 200px;
+        border: 30px solid #e92747;
+        top: -70px;
+        left: -50px;
+    }
+    .form-groups input {
+        box-shadow: 0px 0px 0 0px rgb(0 0 0 / 25%);
+    }
+    .form-groups textarea {
+        box-shadow: 0 0 0 0;
+        margin-bottom: 15px;
+    }
+    button.formbtn {
+        padding: 12px 0;
+        border-radius: 12px;
+    }
+    section.con-arae .content-style-2 h3 {
+        font-size: 28px;
+        line-height: 140%;
+    }
+    .content-style-2 p {
+        font-size: 14px;
+        line-height: 165%;
+    }
+    section.con-arae ul.list-con li {
+        position: relative;
+        padding-left: 27px;
+    }
+    section.con-arae ul.list-con li i {
+        position: absolute;
+        left: 0;
+        top: 5px;
+    }
+    section.con-arae ul.list-con li a {
+        line-break: anywhere;
+    }
+    .footer-content p {
+        font-size: inherit;
+    }
+    .footer-details ul li a {
+        font-size: inherit;
+    }
+    .footer-title h4 {
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: 18px;
+    }
+    .footer-top .footer-details.foot-detail ul li {
+        position: relative;
+        padding-left: 30px;
+        font-size: inherit;
+    }
+    footer.footer-main {
+        font-size: 15px;
+    }
+    .footer-copyright p {
+        font-size: inherit;
+    }
+    footer.footer-main .footer-item {
+        padding-right: 0;
+        margin-bottom: 40px;
+    }
+    footer.footer-main .footer-top {
+        padding: 50px 0 0;
+    }
+    .footer-top .footer-details ul li {
+        padding: 5px 0 12px 0;
+    }
+    section.brand .content-style-2 p {
+        margin-bottom: 40px;
+    }
+    .content-style-1 h3 {
+        font-size: 28px;
+    }
+    section.Enterney h4 {
+        font-size: 20px;
+    }
+    section.business-m:before {
+        bottom: 0;
+        left: unset;
+        right: -120px;
+        width: 300px;
+        height: 300px;
+        z-index: -1;
+        border: 30px solid #eee;
+    }
+    section.business-m .dots:before {
+        width: 160px;
+        height: 150px;
+        right: -60px;
+        top: -60px;
+        z-index: -1;
+    }
+    section.business-m {
+        overflow: hidden;
+    }
+    .main-logo {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    a#open-mobile-menu i {
+        color: #fff;
+        font-size: 18px;
+    }
+    section.main-packages ul#pills-tab {
+        justify-content: center;
+        margin-bottom: 30px !important;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        overflow-y:scroll;
+        padding-bottom:30px;
+    }
+    
+    section.main-packages ul#pills-tab li {
+        white-space: nowrap;
+    }
+    a#open-mobile-menu {
+        display: block;
+    }
+    .Brief-form-class h1{font-size: 50px;}
+    
+    .banner-item h1 {
+        font-size: 30px;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+    
+    .content-style-2 h2 {
+        font-size: 32px;
+        line-height: 108%;
+    
+    }
+    
+    .content-style-1 h2 {
+        font-size: 30px;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+    
+    .package-header h3 {
+        font-size: 16px;
+    }
+    .content-style-3.px-3 {
+        margin-bottom: 30px;
+    }
+    
+    .content-style-3 h2 {
+        line-height: 54px;
+        font-size:30px;
+    }
+    
+    .content-style-4 h4 {
+    font-size: 30px;
+        
+    }
+    .content-style-5 h1 {
+        font-size: 30px;
+        line-height: 40px;
+       
+    }
+    
+    section.brand {
+        padding: 0 0;
+    }
+    
+    section.our-services .service-item {
+      min-height: 320px;
+    }
+    
+    }
+    
+    @media only screen and (max-width: 600px) {
+    .simple-content h4 {
+        font-size: 22px;
+    }
+    footer.footer-main .footer-content {
+        margin-bottom: 30px;
+    }
+    
+    section.con-arae ul.list-con li i {
+        position: unset;
+    }
+    section.con-arae ul.list-con li {
+        position: relative;
+        padding-left: 0;
+    }
+    section.con-arae ul.list-con {
+        margin-bottom: 30px;
+    }
+    .banner-item {
+        padding: 0 0;
+        margin-bottom: 30px;
+    }
+    
+    section.business-m {
+        padding: 25px 0;
+    }
+    
+    section.business-m:before{
+        display:none;
+    }
+    section.business-m img{
+        margin-top:30px
+    }
+    
+    .testimonial-title h3 {
+        font-size: 20px;
+    }
+    
+    section.business-m p{
+        padding-right:0
+    }
+    .imageBox {
+        margin-bottom: 20px !important;
+     
+    }
+    section.portfolio{
+        padding:0 0;
+    }
+    .main-logo img {
+        height: 60px;
+        width: auto;
+    }
+    ul.icon-banner li {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 180%;
+    }
+    .main-banner-contact {
+        box-shadow: 0 0 0 0 rgb(255 255 255 / 32%);
+    }
+    .banner-item p {
+        font-size: 16px;
+        line-height: 170%;
+        font-weight: 400;
+    }
+    .banner-item h3 {
+        font-size: 26px;
+        line-height: 150%;
+    }
+    .button-area a {
+        padding: 10px 15px;
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .content-style-2 h3 {
+        font-size: 24px;
+    }
+    .content-style-1 h3 {
+        font-size: 22px;
+        margin-bottom: 15px !important;
+    }
+    section.chatbox .chat-main {
+        margin-bottom: 30px;
+    }
+    ul#pills-tab li button {
+        padding: 8px 12px;
+        font-weight: 300;
+        border: 1px solid;
+    }
+    .package-footer a {
+        display: inline-block;
+        padding: 8px 14px;
+    }
+    .package-body ul li {
+        font-size: 14px;
+        line-height: 36px;
+    }
+    .package-item {
+        box-shadow: 0 0 19px -10px;
+        border-radius: 15px;
+        padding: 10px 10px;
+        margin: 15px 0;
+    }
+    .package-footer p {
+        font-weight: 400;
+        font-size: 15px;
+        margin: 20px 0 10px;
+    }
+    .package-item .package-body {
+        padding: 0px 7px;
+    }
+    section.project .pro-phone ul {
+        padding: 0;
+        border: none;
+        text-align: left;
+    }
+    .project-box {
+        display: flex;
+        box-shadow: 0 0 12px 0px;
+        justify-content: space-around;
+        padding: 15px;
+        align-items: flex-start;
+        margin-top: 50px !important;
+        border-radius: 15px;
+        flex-direction: column;
+    }
+    .pro-phone {
+        position: relative;
+        width: 100%;
+    }
+    .pro-phone ul li:nth-child(1) {
+        font-size: 14px;
+        line-height: 37px;
+        text-align: center;
+    }
+    .project-box .pro-phone img {
+        width: 17px;
+    }
+    section.project .pro-chat {
+        width: 100%;
+    }
+    .pro-chat ul li:nth-child(1) {
+        text-align: center;
+    }
+    section.project .pro-chat ul {
+        padding: 0;
+    }
+    .pro-chat ul li {
+        text-align: center;
+        color: #E92747;
+        text-align: center;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        gap: 9px;
+    }
+    .pro-chat ul li img {
+        width: 22px;
+        height: 22px !important;
+    }
+    section.project .pro-phone {
+        border-bottom: 2px solid #141232;
+        padding-bottom: 15px;
+        margin-bottom: 13px;
+    }
+    .project-box {
+        box-shadow: 0 0 20px -10px;
+    }
+    section.brand {
+        padding: 30px 0 0px;
+    }
+    .branding-icon ul {
+        display: block;
+         margin-bottom: 20px;
+    }
+    .branding-icon ul li img {
+        width: 22%;
+        position: unset;
+    }
+    section.project .pro-phone ul li {
+        text-align: center;
+    }
+    .branding-icon ul li {
+      display:block;
+      width:100%;
+      text-align:center;
+      margin-bottom:15px;
+    }
+    
+    .branding-icon ul li span {
+        line-height: 160%;
+        display: block;
+        width: 100%;
+        padding: 10px 0;
+    }
+    section.brand p {
+        padding: 0;
+    }
+    section.testimonials .content-style-2 h3 {
+        font-size: 22px;
+    }
+    .main-form {
+        box-shadow: 0 0 20px -10px;
+        padding: 25px 15px;
+        margin-bottom: 10px;
+        background: #fff;
+    }
+    section.con-arae .content-style-2 h3 {
+        font-size: 20px;
+        line-height: 140%;
+    }
+    section.con-arae .content-style-2 {
+        margin-top: 35px;
+    }
+    ul.list-con li a {
+        color: #e92747;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 24px;
+        margin-bottom: 15px;
+    }
+    section.chatbox {
+        padding: 20px 10px;
+        background: #141232;
+    }
+    .chat-main .chat-content {
+        width: 50%;
+    }
+    section.chatbox .button-area:last-child {
+        margin-right: auto;
+    }
+    section.chatbox .button-area {
+        margin: 0 auto;
+        display: table;
+    }
+    section.chatbox .firstbox {
+        text-align: center;
+    }
+    section.main-packages ul#pills-tab {
+        margin-bottom: 10px !important;
+        gap: 10px;
+    }  
+    section.main-packages ul#pills-tab li {
+        width: auto;
+    }
+    section.main-packages ul#pills-tab li button {
+        border: 1px solid #e92747;
+        box-shadow: 0px 0px 18px -10px #000;
+        font-weight: 500;
+        font-size: 14px;
+        padding: 10px 15px;
+        font-weight: 500;
+    } 
+    .mobile-menu-head .mobile-menu-logo img {
+        width: auto;
+        height: 70px;
+    }
+    .main-mobile-menu ul li a {
+        color: #fff;
+        font-size: 18px;
+    }
+    section.thankyou-page .ty-page-content p {
+        font-size: 16px;
+        padding: 13px 0;
+    }
+    section.thankyou-page .ty-page-content h2 {
+        font-size: 24px;
+        font-weight: 600;
+    }
+    section.inner-header .header-title h1 {
+        font-size: 28px;
+    }
+    section.inner-header .header-title ul li {
+        color: #e92747;
+        font-size: 16px;
+    }
+    section.inner-header {
+        min-height: 250px;
+        height: 250px;
+        padding: 40px 0;
+    }
+    .content-style-1 h2 {
+       line-height: 34px;
+       
+    }
+    .content-style-3 h2 {
+        line-height: 39px;
+        font-size: 27px;
+    }
+    .content-style-4 h4 {
+        font-size: 28px;
+        line-height: 30px;
+        margin-bottom:20px
+    }
+    
+    section.testimonials {
+        padding: 25px 0;
+    }
+    .footer-copyright{
+        text-align:center;
+    }
+    
+    .footer-copyright a {
+       font-size: 13px;
+    }
+    
+    .footer-copyright p{
+         font-size: 12px;
+    }
+    
+    .testi-img img {
+        width: 100%;
+        transform: unset;
+        margin-top: 20px;
+    }
+    
+    section.our-services {
+        padding: 25px 0;
+    }
+    
+    section.our-services .service-item {
+      padding: 20px 20px;
+        min-height: auto;
+         margin-bottom: 0;
+    }
+    
+    section.main-banner {background-image: none;}
+    
+    .brand-img img {
+        width: 100%;
+        height: auto;
+    }
+    
+    
+    }
+    
+    @media only screen and (max-width: 430px) {
+        .Brief-form-class{border-radius: 20px; padding: 30px;}
+        .Brief-form-class .form-groups input{height: 40px;}
+        .Brief-form-class .form-control{font-size: 14px;}
+    
+        .Logo-head img {width: 65%;}
+        .Brief-form-class h1{font-size: 28px;}
+        .Brief-form-class h2 {font-size: 22px;}
+        .section-2 label{font-size: 16px;}
+        .section-3 label{font-size: 16px;}
+        .Brief-form-class button.briefbtn {width: 80%; padding: 10px;}
+        
+    }
+    
+    @media only screen and (max-width: 380px) {
+        
+        .Brief-form-class .form-groups input{height: 30px;}
+        .Brief-form-class .form-control{font-size: 12px;}
+    
+        .Logo-head{text-align: center; margin: 35px 0px 20px;}
+        section.chatbox a {margin-right: 4px;}
+        .Brief-form-class h1 {font-size: 18px; margin-bottom: 15px;}
+        .Brief-form-class h2 {font-size: 16px;}
+        .section-2 label {font-size: 14px;}
+        .section-3 label {font-size: 14px;}
+    }

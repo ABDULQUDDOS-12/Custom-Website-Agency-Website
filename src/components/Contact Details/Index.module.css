@@ -1,0 +1,122 @@
+.mainContainer{
+    margin-top: 8%;
+}
+.mainHeading{
+    font-size: x-large;
+    width: 90%;
+    margin: auto;
+}
+.mainHeading h1{
+    color: #141232;
+}
+.mainHeading span{
+    color: #E92747;
+}
+.mainHeadingText p{
+    width: 90%;
+    margin: auto;
+    margin-top: 3%;
+}
+.mainCardContainer{
+    height: 150px;
+    box-shadow: 0 0 12px 0px;
+    width: 40%;
+    margin: auto;
+    margin-top: 5%;
+    display: flex;
+    background-color: rgb(240, 239, 238);
+    border-radius: 20px;
+}
+.mainCardContainer p{
+    align-items: center;
+}
+.phoneIcon{
+    font-size: 20px;
+}
+.phoneDetails{
+    display: flex;
+    align-items: center;
+    color: #E92747;
+}
+.phoneDetails p{
+    margin-left: 1%;
+    font-weight: 600;
+}
+.content{
+    padding: 10%;
+    width: 100%;
+}
+.quoteContainer{
+    width: 100%;
+    padding-top: 10%;
+    padding-right: 5%;
+    text-align: right;
+}
+.quoteContainer p{
+    color: #E92747;
+    padding-right: 5%;
+}
+
+/* Responsiveness */
+@media (min-width: 1008px) and (max-width: 1300px){
+   .mainCardContainer{
+    background: transparent;
+   }
+   .phoneDetails p{
+    font-size: smaller;
+   }
+   .phoneDetails{
+    justify-content: center;
+   }
+   .content p:nth-child(1){
+    margin-left: 11%;
+   }
+  
+}
+@media (min-width: 641px) and (max-width: 1007px){
+    .mainHeading{
+        font-size: large ;
+        text-align: center;
+    }
+    .mainHeadingText p{
+        text-align: center;
+    }
+    .mainCardContainer{
+        width: 72%;
+    }
+    .quoteContainer{
+        text-align: center;
+    }
+    .mainHeadingText p{
+        font-size: small;
+    }
+}@media (min-width: 360px) and (max-width: 640px){
+    .mainContainer{
+        width: 80%;
+        margin: auto;
+        margin-top: 15%;
+    }
+    .mainHeading{
+        font-size: small;
+        text-align: center;
+    }
+    .mainHeadingText p{
+        font-size: small;
+    }
+    .mainCardContainer{
+        width: 100%;
+        margin: auto;
+        margin-top: 5%;
+        height: auto;
+        background-color: transparent;
+    }
+    .content p{
+        font-size: small;
+    }
+    .phoneDetails,.phoneDetails .phoneIcon,.phoneDetails p{
+        font-size: small;
+    }
+    .quoteContainer p{
+        font-size: small;
+    }
+}
